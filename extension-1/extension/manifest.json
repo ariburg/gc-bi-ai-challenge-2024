@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Built-in AI extension 1",
+    "name": "Contextual help with Built-in AI",
     "description": "Get AI explanations for selected text",
     "version": "0.1.0",
     "icons": {
