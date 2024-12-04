@@ -1,0 +1,46 @@
+{
+  "name": "biai-extension-1",
+  "version": "0.0.1",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/biai-extension-1.min.js",
+  "exports": {
+    ".": {
+      "require": "./dist/biai-extension-1.min.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "mobx": "6.13.2",
+    "mobx-react-lite": "4.0.7",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.9.0",
+    "@types/chrome": "^0.0.287",
+    "@types/node": "22.5.1",
+    "@types/react": "18.3.4",
+    "@types/react-dom": "18.3.0",
+    "@types/sbd": "^1.0.5",
+    "@vitejs/plugin-react": "4.3.1",
+    "@vitest/coverage-v8": "2.1.1",
+    "eslint": "9.9.0",
+    "eslint-plugin-react-hooks": "5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "0.4.9",
+    "globals": "15.9.0",
+    "prettier": "3.3.3",
+    "sbd": "1.0.19",
+    "typescript": "5.5.3",
+    "typescript-eslint": "8.6.0",
+    "vite": "5.4.6",
+    "vitest": "2.1.1"
+  }
+}
